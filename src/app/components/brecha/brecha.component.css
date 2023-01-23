@@ -1,0 +1,10 @@
+.filter ul li a.active::after {
+  display: block;
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: 14px;
+  width: 9px;
+  height: 9px;
+  background: #37474f;
+}

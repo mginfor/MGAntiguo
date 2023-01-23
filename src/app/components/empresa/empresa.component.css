@@ -1,0 +1,87 @@
+ .icons img {
+    width: 200px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.navMG .navPr ul li.hs-menu-item.active>a:before {
+    opacity: 1;
+}
+
+
+
+.box2 {
+  width: 134px;
+  height: 100px;
+  margin: 0 auto;
+  padding-left: 40px;
+}
+
+
+.icon {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 50px;
+  margin-top: 40px;
+  background-color: #E1E2E3;
+  font-family: arial;
+}
+
+
+.doc-type {
+  position: absolute;
+  bottom: 0;
+  width: 50px;
+  height: 16px;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 10px;
+  color: #FFF;
+}
+.doc-icon {
+  position: absolute;
+  top: 10px;
+  width: 50px;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.icon.red { background-color: #DE4206; z-index: 1; }
+
+
+h1, h2 {
+  font-weight: normal;
+  text-align: center;
+}
+
+h1 {
+  font-size: 37px;
+  color: #A1A2A3;
+  margin-top: 60px;
+}
+
+.titulo{
+  font-size: 20px;
+  color: #C1C2C3;
+  margin-bottom: 20px;
+  font-weight: normal;
+  text-align: center;
+
+}
+
+.centro{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
