@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { carrusel } from 'src/app/Const/Carrusel';
+import { Carrusel } from 'src/app/models/Carrusel';
 import { BlogService } from '../../services/blog.service';
 
 @Component({
@@ -11,6 +13,7 @@ export class HomeComponent implements OnInit {
   constructor(private _blogServices: BlogService) { }
 
   public mainPost: any;
+  public carrusel: Carrusel = carrusel[0];
   public otherPosts = [];
 
   ngOnInit(): void {
