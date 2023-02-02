@@ -72,17 +72,13 @@ export class CompetenciaslaboralesComponent implements OnInit {
 
 }
 
-//  sendmail2(){
-//    this._blogservice.sendEmail2(this.form).subscribe(response => {
-//      if(response.success){
-//        this.message = response.message;
-//      }
-//    }, error => {
-//      console.error(error);
-//    })
-
-
-//   }
+ sendmail2(){
+   this._blogservice.sendEmail(this.form).subscribe(response => {
+     if(response.success){
+       this.message = response.message;
+     }
+   })
+  }
 
   validateData() {
     let flag = false;
